@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplo 2 - Tabelas</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center; color: red;">Almoço do SESI</h1>
+            <hr>
+        </header>
+        <main>
+            <!-- iniciando tabela -->
+            <table border="1" style="width: 100%;">
+                <!-- titulo da tabela -->
+                <caption>Comidas do SESI</caption>
+                <!-- cabeçalho da tabela -->
+                <thead>
+                   <!-- primeira linha do cabecalho -->
+                   <tr>
+                    <th colspan="6">Dias da Semana</th>
+                   </tr> 
+
+                   <!-- segunda linha do cabecalho -->
+                   <tr>
+                    <th>Informações</th>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+                   </tr>
+                </thead>
+                <!-- corpo da tabela -->
+                <tbody>
+                    <!-- primeira linha do corpo da tabela -->
+                    <tr>
+                        <td rowspan="2" style="background-image:url(https://media.giphy.com/media/xT0xepIsg7kK2ZZO0g/giphy.gif) ;">Informações Nutricionais</td>
+                        <td colspan="5" style="text-align: center;"><b>Arroz + Feijão</b></td>
+                    </tr>
+                    <!-- segunda linha do corpo da atbela -->
+                    <tr>
+                        <td>Carne</td>
+                        <td>Goulash</td>
+                        <td>Frango Grelhado</td>
+                        <td>Carne Moída</td>
+                        <td>Carne de Panela</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

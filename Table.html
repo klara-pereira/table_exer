@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabelas em HTML</title>
+    </head>
+    <body>
+        <header style="background-color: #ef77ad;">
+            <br>
+            <h1 style="text-align: center;">Tabelas</h1>
+            <br>
+        </header>
+        <main>
+            <h2>Tabela de notas de um aluno</h2>
+            <!-- table -> tabela -->
+            <table border="1" style="width: 100%;">
+                <!-- thead -> cabeçalho da tabela -->
+                 <thead style="background-color: #721050; color: #fff;">
+                    <!-- tr -> table row -> linha do cabeçalho -->
+                     <tr>
+                        <!-- th -> table head -> conteudo de cabeçalho -->
+                        <th>Disciplina</th>
+                        <th>Nota 1</th>
+                        <th>Nota 2</th>
+                        <th>Nota 3</th>
+                        <th>Nota 4</th>
+                        <th>Média</th>
+                     </tr>
+                     </thead>
+                     <!-- criar a segunda linha da tabela -->
+                      <tbody>
+                      <tr>
+                        <!-- td -> table data -> dados da tabela -->
+                        <td>Matématica</td>
+                        <td>9,0</td>
+                        <td>8,0</td>
+                        <td>8,0</td>
+                        <td>10,0</td>
+                        <td>8,5</td>
+                      </tr>
+
+                      <!-- criar a terceira linha da tabela -->
+                       <tr>
+                        <td>Liguagem de Marcação</td> 
+                        <td>4,0</td>
+                        <td>5,0</td>
+                        <td>3,0</td>
+                        <td>4,0</td>
+                        <td>4,0</td>
+                       </tr>
+
+                       <!-- criar a quarta linha -->
+                        <tr>
+                            <td>Banco de Dados</td>
+                            <td>9,0</td>
+                            <td>9,0</td>
+                            <td>9,0</td>
+                            <td>10,0</td>
+                            <td>9,25</td>
+                        </tr>
+
+                        <!-- criar a quinta linha -->
+                         <tr>
+                            <td>Programação Back-End 1</td>
+                            <td>8,0</td>
+                            <td>8,0</td>
+                            <td>7,0</td>
+                            <td>7,0</td>
+                            <td>7,5</td>
+                         </tr>
+
+                        <!-- criar a sexta linha da tabela -->
+                         <tr>
+                            <td>Programação Mobile</td>
+                            <td rowspan="2">-</td>
+                            <td rowspan="2">-</td>
+                            <td>9,0</td>
+                            <td>9,0</td>
+                            <td>9,0</td>
+                         </tr>
+
+                         <!-- criar a setima linha da tabela -->
+                          <tr>
+                            <td>Programação Frot-End</td>
+                            <!-- <td>-</td> -->
+                            <!-- <td>-</td> -->
+                            <td>10,0</td>
+                            <td>10,0</td>
+                            <td>10,0</td>
+                          </tr>
+
+
+                         <!-- criar a linha de média final -->
+                          <tr>
+                            <!-- colspan -> mesclar colunas -->
+                            <th colspan="5">Média Final</th>
+                            <th>7,3</th>
+                          </tr>
+                  </tbody>
+            </table>
+        </main>
+    </body>
+</html>
